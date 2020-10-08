@@ -1,0 +1,378 @@
+@font-face {
+    font-family: "CyrillicOldBold";
+    src: url("../fonts/CyrillicOldBold.eot");
+    src: url("../fonts/CyrillicOldBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/CyrillicOldBold.woff") format("woff"),
+    url("../fonts/CyrillicOldBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+ 
+@font-face {
+	font-family: 'Conv_ofont.ru_AXP ZhikharevC';
+	src: url('../fonts/ofont.ru_AXP ZhikharevC.eot');
+    src: local('â˜º'), 
+    url('../fonts/ofont.ru_AXP ZhikharevC.woff') format('woff'), 
+    url('../fonts/ofont.ru_AXP ZhikharevC.ttf') format('truetype'), 
+    url('../fonts/ofont.ru_AXP ZhikharevC.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body.zr-page {
+    background-color: #172736;
+}
+
+.zr-slid {
+    background: url(../images/video/slid_zr_1.jpg);
+    background-position: 50% 0%; text-align: center;
+}
+
+.button_slider {
+    display: none;
+}
+
+.awards {
+    padding-top: 70px;
+    margin-top: -70px;
+    margin-bottom: 0;
+    color: #323232;
+}
+
+#where_buy {
+    background: url(../images/bg_where_buy.jpg) center bottom;
+    margin-bottom: 0;
+    padding-top: 40px;
+}
+
+.medal {
+    background: url(../images/sprites_logo.png) no-repeat;
+    height: 115px;
+    width: 115px;
+    margin: 0 auto 5%;
+}
+
+.medal.m1 {
+    background-position: -11px -6px;
+}
+
+.medal.m2 {
+    background-position: -132px -6px;
+}
+
+.medal.m3 {
+    background-position: -258px -6px;
+}
+
+.medal.m4 {
+    background-position: -383px -6px;
+}
+
+.medal.m5 {
+    background-position: -502px -6px;
+}
+
+.brand-reviews-wrap {
+    text-align: center;
+    background: url(../images/brand_reviews_bg.jpg) center bottom;
+    padding-bottom: 35px;
+}
+
+.brand-reviews {
+    margin-bottom: 0;
+}
+
+.brand-reviews p {
+    font-family:'Conv_ofont.ru_AXP ZhikharevC',Serif;
+    background: rgb(224,147,61);
+    background: linear-gradient(90deg, rgba(224,147,61,1) 0%, rgba(224,147,61,1) 19%, rgba(255,218,131,1) 73%, rgba(224,147,61,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.brand-reviews p {
+    line-height: 1.6em;
+    letter-spacing: 0.7px;
+    margin-top: 0em;
+    margin-bottom: 3em;
+    font-weight: 1000;
+}
+
+.assortment {
+    background: url(../images/assortment_bg.jpg) center top no-repeat;
+    padding: 4.5em 0 1.5em;
+    background-size: cover;
+}
+
+.zr-page .assortment .positions-wrap .container-fluid {
+    /*padding-left: 0;
+    padding-right: 0;
+    max-width: 100%;*/
+}
+
+
+.title-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.filter-block {
+    margin-top: 3em;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.assortment .read-more.news,
+.zr-page #where_buy .read-more.news {
+    margin-right: 1.5em;
+    padding: 9px 13px 14px 20px;
+    border: 1px solid white;
+    z-index: 1;
+}
+
+.zr-page #where_buy .read-more.news {
+    margin: 0 auto;
+    
+}
+
+.assortment .positions-wrap .positions-block {
+    background: url(../images/background.jpg);
+}
+
+.assortment .read-more.news:hover,
+.assortment .read-more.news:focus,
+.assortment .read-more.news.active,
+.zr-page #where_buy .read-more.news:hover,
+.zr-page #where_buy .read-more.news:focus,
+.zr-page #where_buy .read-more.news.active {
+    border-color: #fe4f60;
+}
+
+.assortment .read-more.news a {
+    outline: none;
+}
+
+.assortment .modern-page-navigation a {
+    color: white;
+}
+
+.assortment .arrow-pager {
+    background: url(../images/sprites2.png);
+    background-position: -15px -753px;
+    height: 12px;
+    display: inline-block;
+}
+
+.assortment span {
+    color: #d4cccc;
+}
+
+.zr-page h3 {
+    color: #CB141A;
+    font-size: 3em;
+    font-family:'Conv_ofont.ru_AXP ZhikharevC',Serif;
+    background: rgb(224,147,61);
+    background: linear-gradient(90deg, rgba(224,147,61,1) 0%, rgba(224,147,61,1) 19%, rgba(255,218,131,1) 73%, rgba(224,147,61,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0.7px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 85px;
+    position: relative;
+}
+
+.zr-page h3::after {
+    content: "";
+    position: absolute;
+    background: linear-gradient(90deg, rgba(224,147,61,1) 0%, rgba(224,147,61,1) 19%, rgba(255,218,131,1) 73%, rgba(224,147,61,1) 100%);
+    width: 95%;
+    height: 2px;
+    bottom: -0.3em;
+    left: calc(11% - 58.5px);
+    border: none;
+    top: 78px;
+}
+
+.zr-page #news_wrapper  {
+    text-align: center;
+}
+
+.zr-page #news_wrapper h3 {
+    display: inline-block;
+}
+
+.zr-page #news_wrapper h3::after {
+    left: calc(32% - 60.5px);
+    width: 87%;
+}
+
+.zr-page #where_buy {
+    text-align: center;
+}
+
+.zr-page #where_buy h3 {
+    display: inline-block;
+}
+
+.zr-page #where_buy h3:after {
+    left: calc(22% - 58.5px);
+    width: 87%;
+}
+
+.new_items_and_news.container-fluid {
+    max-width: 100%;
+}
+
+.zr-page .map {
+    background: url(../images/map.png) no-repeat center -30px;
+    height: 570px;
+    background-size: contain;
+}
+
+.zr-page #where_buy h3 {
+    margin-top: 15px;
+}
+
+.zr-page footer {
+    background-color: #ffefd6;
+}
+
+.cs-style-4 figure > div {
+  /*  align-items: stretch;
+    justify-content: center;
+  */
+}
+
+/**** Isotope Filtering ****/
+.isotope-item {
+    z-index: 2;
+  }
+  .isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+  }
+  /**** Isotope CSS3 transitions ****/
+  .isotope,
+  .isotope .isotope-item {
+    -webkit-transition-duration: 0.8s;
+       -moz-transition-duration: 0.8s;
+        -ms-transition-duration: 0.8s;
+         -o-transition-duration: 0.8s;
+            transition-duration: 0.8s;
+  }
+  .isotope {
+    -webkit-transition-property: height, width;
+       -moz-transition-property: height, width;
+        -ms-transition-property: height, width;
+         -o-transition-property: height, width;
+            transition-property: height, width;
+  }
+  .isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+       -moz-transition-property:    -moz-transform, opacity;
+        -ms-transition-property:     -ms-transform, opacity;
+         -o-transition-property:         top, left, opacity;
+            transition-property:         transform, opacity;
+  }
+  /**** disabling Isotope CSS3 transitions ****/
+  .isotope.no-transition,
+  .isotope.no-transition .isotope-item,
+  .isotope .isotope-item.no-transition {
+    -webkit-transition-duration: 0s;
+       -moz-transition-duration: 0s;
+        -ms-transition-duration: 0s;
+         -o-transition-duration: 0s;
+            transition-duration: 0s;
+  }
+  /* End: Recommended Isotope styles */
+  /* disable CSS transitions for containers with infinite scrolling*/
+  .isotope.infinite-scrolling {
+    -webkit-transition: none;
+       -moz-transition: none;
+        -ms-transition: none;
+         -o-transition: none;
+            transition: none;
+  }
+
+@media (max-width: 1199px) {
+
+  .brand-reviews p {
+    margin-top: 2em;
+  }
+
+  .zr-page .assortment .positions-wrap .container-fluid {
+    /*padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1170px;*/
+  }
+
+}
+
+@media (max-width: 991px) {
+    .brands-reviews div {
+        text-align: center;
+    }
+    .brand-reviews img {
+        display: inline-block;
+    }
+    .brand-reviews p {
+        margin-top: 1em;
+        text-align: center;
+    }
+
+    .cs-style-4 figure:hover img, .cs-style-4 figure.cs-hover img {
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+
+    .new_items_and_news {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+    .zr-page h3 {
+        font-size: 2em;
+    }
+
+    .zr-page h3::after {
+        display: none;
+    }
+
+    #where_buy {
+        background: none;
+        margin-bottom: 100px;
+    }
+
+    .filter-block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .filter-block .read-more.news {
+        margin-bottom: 10px;
+        width: 12em;
+    }
+
+    .zr-page .map {
+        height: 334.8px;
+    }
+
+    .brand-reviews div {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .zr-page .map {
+        height: 134.8px;
+        padding-top: 130px;
+    }
+}
